@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="templates/css/main.css">
+        <title>Uploader</title>
+    </head>
+    <body>
+        <h1>Upload file:</h1>
+        <div class="container">
+            <form action="/upload" enctype="multipart/form-data" method="post">
+                <label>File name: </label>
+                <input class="form-title" type="text" name="title">
+                <br>
+                <label>File: </label>
+                <input class="form-file" type="file" name="upload" multiple="multiple">
+                <br>
+                <input class="form-send" type="submit" value="Send">
+            </form>
+        </div>
+    </body>
+</html>

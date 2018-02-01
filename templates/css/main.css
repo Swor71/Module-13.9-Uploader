@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    height: 100vh;
+    background: linear-gradient(to top, #000428, #004e92);
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 4em;
+}
+
+.container {
+    text-align: center;
+    color: #fff;
+    font-size: 3em;
+}
+
+.form-title {
+    height: 25px;
+    width: 200px;
+    vertical-align: middle;
+}
+
+.form-send {
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
